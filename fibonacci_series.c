@@ -8,7 +8,7 @@ int main() {
     if (scanf("%d", &n) != 1) {
         return 1; // erreur de lecture
     }
-    printf("Fibonacci :");
+    printf("Fibonacci : ");
     // si la limmie est négatif 
     if (n < 0) {
         printf("Nombre négatif non autorisé.\n");
@@ -19,7 +19,7 @@ int main() {
         printf("%d ", a);
         // Protection contre le dépassement d'entier
         if (a > INT_MAX - b) {
-            printf("\nErreur : dépassement de capacité.\n");
+            printf("\nErreur\n");
             return 1;
         }
         // calcul du prochain terme
